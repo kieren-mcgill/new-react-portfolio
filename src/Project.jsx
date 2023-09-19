@@ -8,7 +8,7 @@ const Project = ({ project }) => {
         <div className={styles.project}>
             <h3 className={styles.mobileProjectTitle}>{project.title}</h3>
             <div className={styles.imageContainer}>
-                <img src={`src/assets/project_images/${project.image}`} alt={project.title} className={styles.projectImage} />
+                <img src={`/assets/project_images/${project.image}`} alt={project.title} className={styles.projectImage} />
                 {project.Url && <Button label="demo" navigateTo={project.Url} external demoBtn/>}
             </div>
             <div>

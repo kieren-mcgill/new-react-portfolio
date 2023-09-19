@@ -33,7 +33,7 @@ export const listOfProjects = [
         techStack: ['React', 'Java', 'Springboot'],
       blurb: "A mobile web app that allows visitors to the Yorkshire Arboretum to scan QR codes and receive information. " +
           "The CMS allows staff to add new locations to the QR code trail. Built by the Eyup cohort of March 2023",
-      image: 'arboretum-app',
+      image: 'arboretum-app.png',
       GitHubFront: 'https://github.com/kieren-mcgill/arboretum-client-demo',
       GitHubBack: 'https://github.com/kieren-mcgill/arboretum-server-demo',
       Url: ''

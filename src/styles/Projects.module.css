@@ -1,0 +1,36 @@
+
+.projects {
+    position: relative;
+    padding: 10rem 4rem 2rem;
+    background-color: rgba(250, 250, 250, 1);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.projectTitle {
+    font-weight: bold;
+    position: absolute;
+    text-transform: uppercase;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.titleUnderline {
+    width: 5rem;
+    height: 5px;
+    background-color: var(--bright-purple);
+    position: absolute;
+    border-radius: 5px;
+    top: 8rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(max-width: 650px) {
+
+    .projects {
+        padding: 10rem 1rem 2rem;
+    }
+}

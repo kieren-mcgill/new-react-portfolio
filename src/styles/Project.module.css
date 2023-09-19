@@ -1,0 +1,55 @@
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding-bottom: 1rem;
+}
+
+.mobileProjectTitle {
+    display: none;
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    aspect-ratio: 3 / 2;
+}
+
+.imageContainer {
+    position: relative;
+    aspect-ratio: 3 / 2;
+    height: auto;
+}
+
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media (max-width: 850px) {
+    .project {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+        border-bottom: var(--mid-grey) 1px solid;
+    }
+
+    .mobileProjectTitle {
+        display: block;
+    }
+
+    .desktopProjectTitle {
+        display: none;
+    }
+
+    .projectImage {
+        padding: 0;
+    }
+
+    .skillList {
+        justify-content: center;
+    }
+}

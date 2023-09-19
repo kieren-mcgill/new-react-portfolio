@@ -1,0 +1,46 @@
+.blinkingDots {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-self: flex-end;
+}
+
+.blinkingDots div {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+.blink1 {
+    animation-delay: 0.2s;
+    margin-bottom: 4px;
+}
+.blink2 {
+    animation-delay: 0.4s;
+    margin-bottom: 4px;
+}
+.blink3 {
+    animation-delay: 0.6s;
+    margin-bottom: 4px;
+}
+
+@keyframes blink {
+    0% {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    20% {
+        background-color: rgb(0, 0, 0);
+        transform: scale(1.2);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}

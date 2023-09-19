@@ -1,0 +1,15 @@
+
+.skillPill {
+    background-color: var(--mid-grey);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.smallPill {
+    background-color: var(--mid-grey);
+    font-size: 0.75rem;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem 0.25rem 0;
+}

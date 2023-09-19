@@ -1,0 +1,14 @@
+
+.socialsBox {
+}
+
+.socialsLink {
+    display: inline-block;
+    padding: 0.5rem;
+    transition: transform .3s
+}
+
+.socialsLink:hover {
+    color: white !important;
+    transform: translateY(-3px);
+}

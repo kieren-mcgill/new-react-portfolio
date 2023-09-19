@@ -1,0 +1,83 @@
+:root {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--dark-grey);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit !important;
+  cursor: pointer;
+  transition: transform 0.3s
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: var(--bright-purple) !important;
+    transform: translateY(-3px);
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('../assets/background.svg');
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  letter-spacing: 3px;
+  color: #111;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #111;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #111;
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+}
